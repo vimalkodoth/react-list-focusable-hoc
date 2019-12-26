@@ -1,0 +1,65 @@
+.listItem-module__listItem--3ivC1 {
+    width: 300px;
+    margin:10px;
+}
+.listItem-module__listItem--3ivC1 img {
+    width:100%;
+    vertical-align: middle;
+}
+.list-module__list--YZyuA {
+    display:flex;
+    flex-wrap:wrap;
+}
+.navigation-module__container--2HTNu {
+    position:relative;
+    background-color:#0f161a;
+    height:64px;
+}
+.navigation-module__header--T68T9 {
+    margin:0 80px;
+    position:relative;
+}
+.navigation-module__container--2HTNu section {
+    height:inherit;
+    position:relative;
+}
+
+.navigation-module__left--1EXNT {
+    display:inline-block;
+    margin-top:15px;
+}
+.navigation-module__logo--26o2E {
+
+}
+.footer-module__container--Xg_8o {
+    position:relative;
+    background-color: #0f161a;
+    height: 64px;
+    margin-top:auto;
+}
+.footer-module__header--2ANo6 {
+    margin: 0 80px;
+    position: relative;
+}
+.footer-module__container--Xg_8o section {
+    height:inherit;
+    position:relative;
+}
+.container-module__container--CUHpN{
+    height:auto;
+    margin:15px 0;
+}
+*, *::after, *::before{
+	box-sizing:border-box;
+}
+body{
+    width: 1280px;
+    height: 720px;
+    margin: 0px auto;
+}
+
+#index__root--4PyOE {
+    height: 100%;
+}
+
+

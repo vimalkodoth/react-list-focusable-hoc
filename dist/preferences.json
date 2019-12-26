@@ -1,0 +1,6 @@
+{
+    "parameters" : ["precipitation", "temperature", "humidity"],
+    "location" : "Munich",
+    "units" : "metric",
+    "period" : "2"
+}

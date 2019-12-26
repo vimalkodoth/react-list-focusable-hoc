@@ -1,0 +1,4 @@
+{
+    "base_url": "http://api.openweathermap.org/data/2.5/forecast/hourly",
+    "appId" : "ac78b49e00d7fa29846701f6ca2e9843"
+}

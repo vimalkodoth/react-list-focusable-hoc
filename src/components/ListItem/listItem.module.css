@@ -1,0 +1,11 @@
+.listItem {
+  width: 300px;
+  margin: 10px;
+}
+.focused {
+  opacity: 0.9;
+}
+.listItem img {
+  width: 100%;
+  vertical-align: middle;
+}
