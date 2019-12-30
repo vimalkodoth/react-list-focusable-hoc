@@ -18,9 +18,6 @@ module.exports = {
     path: path.resolve("dist"),
     filename: "bundle.js"
   },
-  devServer: {
-    headers: { "Access-Control-Allow-Origin": "*" }
-  },
   module: {
     rules: [
       {

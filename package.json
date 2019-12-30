@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "heroku-prebuild": "npm install --dev",
     "start": "node server.js",
-    "heroku-prebuild": "npm install --dev",
     "build": "webpack --mode production",
     "test:unit": "mocha --require @babel/register --require ./tests/helpers.js --require ./tests/dom.js --require ignore-styles 'src/**/*.spec.js'",
     "test:unit:watch": "npm run test:unit -- --watch",
@@ -48,13 +46,12 @@
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.3.1",
-    "express": "*",
-    "cors":"*"
+    "express": "*"
   },
   "dependencies": {
-    "express": "*",
-    "cors":"*",
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "*",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0"
