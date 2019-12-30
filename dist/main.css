@@ -1,15 +1,19 @@
-.listItem-module__listItem--3ivC1 {
-    width: 300px;
-    margin:10px;
-}
-.listItem-module__listItem--3ivC1 img {
-    width:100%;
-    vertical-align: middle;
-}
 .list-module__list--YZyuA {
     display:flex;
     flex-wrap:wrap;
 }
+.listItem-module__listItem--3ivC1 {
+  width: 300px;
+  margin: 10px;
+}
+.listItem-module__focused--1tzZY {
+  opacity: 0.9;
+}
+.listItem-module__listItem--3ivC1 img {
+  width: 100%;
+  vertical-align: middle;
+}
+
 .navigation-module__container--2HTNu {
     position:relative;
     background-color:#0f161a;
