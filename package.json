@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
+    "heroku-prebuild": "npm install --dev",
     "build": "webpack --mode production",
     "test:unit": "mocha --require @babel/register --require ./tests/helpers.js --require ./tests/dom.js --require ignore-styles 'src/**/*.spec.js'",
     "test:unit:watch": "npm run test:unit -- --watch",
