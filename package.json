@@ -5,7 +5,7 @@
   "main": "index.js",
   "proxy": "http://localhost:8080",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "node server.js",
     "heroku-prebuild": "npm install --dev",
     "build": "webpack --mode production",
     "test:unit": "mocha --require @babel/register --require ./tests/helpers.js --require ./tests/dom.js --require ignore-styles 'src/**/*.spec.js'",
