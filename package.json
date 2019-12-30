@@ -50,7 +50,7 @@
     "express": "*"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "cors": "^2.8.5",
     "express": "*",
     "react": "^16.8.6",
