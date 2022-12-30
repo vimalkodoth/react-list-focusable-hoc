@@ -39,7 +39,7 @@
     "jsdom": "^15.0.0",
     "json-loader": "^0.5.7",
     "mini-css-extract-plugin": "^0.6.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mocha-webpack": "^1.1.0",
     "parcel-bundler": "^1.12.4",
     "sinon": "^7.3.2",
